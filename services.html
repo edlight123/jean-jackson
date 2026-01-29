@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Services | I-BUILT Haïti - Architecture & Engineering</title>
+    <meta name="description" content="I-BUILT Haïti offers professional architecture and engineering services including residential design, structural analysis, project management, and more." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏗️</text></svg>">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "card-dark": "#192633",
+                        "border-dark": "#233648",
+                        "text-secondary": "#92adc9",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                },
+            },
+        }
+    </script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #101922; }
+        ::-webkit-scrollbar-thumb { background: #233648; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #137fec; }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display overflow-x-hidden antialiased">
+
+<div class="relative flex min-h-screen w-full flex-col">
+    
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 w-full bg-white/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-slate-200 dark:border-border-dark">
+        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="text-primary">
+                        <span class="material-symbols-outlined !text-3xl">domain</span>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white leading-tight">I-BUILT Haïti</h1>
+                        <p class="text-xs text-text-secondary -mt-0.5">Architecture & Engineering</p>
+                    </div>
+                </a>
+                <nav class="hidden md:flex items-center gap-8">
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html">Home</a>
+                    <a class="text-sm font-medium text-primary" href="services.html">Services</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="projects.html">Projects</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html">About</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html">Contact</a>
+                </nav>
+                <div class="hidden md:block">
+                    <a href="contact.html" class="bg-primary hover:bg-blue-600 text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors shadow-lg shadow-primary/20 inline-flex items-center gap-2">
+                        <span>Get a Quote</span>
+                        <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="flex-1 flex flex-col items-center">
+        
+        <!-- Hero Section -->
+        <section class="w-full py-12 md:py-20">
+            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row gap-10 items-center">
+                <div class="flex flex-1 flex-col gap-5">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit">
+                        <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+                        <span class="text-primary text-xs font-bold uppercase tracking-wider">Available for new projects</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em] text-slate-900 dark:text-white">
+                        Architecture & <span class="text-primary">Engineering</span> Services
+                    </h1>
+                    <p class="text-lg text-slate-600 dark:text-text-secondary font-normal leading-relaxed max-w-[600px]">
+                        From dream to reality, we provide comprehensive design and construction services tailored to Haiti's unique environment and your specific needs.
+                    </p>
+                    <div class="flex gap-4 mt-4">
+                        <a href="contact.html" class="h-12 px-6 rounded-lg bg-primary hover:bg-blue-600 text-white font-bold transition-colors flex items-center gap-2 shadow-lg shadow-primary/20">
+                            Start Your Project
+                            <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+                        </a>
+                        <a href="projects.html" class="h-12 px-6 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium flex items-center">
+                            View Portfolio
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Image -->
+                <div class="flex-1 w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent z-10"></div>
+                    <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80");'>
+                    </div>
+                    <div class="absolute bottom-6 left-6 z-20">
+                        <p class="text-white font-bold text-xl">Design Excellence</p>
+                        <p class="text-slate-300 text-sm">Building for the next generation</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Services Grid -->
+        <section class="w-full py-10">
+            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col gap-10">
+                <div class="flex flex-col gap-2">
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Our Services</h2>
+                    <p class="text-slate-600 dark:text-text-secondary">Comprehensive architecture and engineering solutions for residential and commercial projects.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    
+                    <!-- Service 1 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">home</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Residential Design</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Custom home designs from concept to construction documents. Modern villas, family homes, and apartment buildings.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">apartment</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Commercial Architecture</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Office buildings, retail spaces, restaurants, and mixed-use developments designed for functionality and aesthetics.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">engineering</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Structural Engineering</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Seismic-resistant structural analysis and design ensuring safety and compliance with building codes.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 4 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">construction</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Project Management</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                End-to-end project oversight from planning to completion, ensuring timelines and budgets are met.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 5 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">draw</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Interior Design</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Space planning, material selection, and interior layouts that complement architectural design.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 6 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">autorenew</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Renovation</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Transform existing spaces with thoughtful renovations and structural improvements.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 7 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">landscape</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Site Planning</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Land analysis, zoning compliance, and optimal site utilization for your project.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 8 -->
+                    <div class="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-card-dark p-6 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/5">
+                        <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined text-3xl">verified</span>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Permit Assistance</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                                Navigate local building codes and permit requirements with expert guidance.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Process Section -->
+        <section class="w-full py-16">
+            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="rounded-2xl bg-slate-100 dark:bg-card-dark p-8 md:p-12 border border-slate-200 dark:border-border-dark">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-8 text-center">Our Process</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">1</div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Consultation</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary">We discuss your vision, requirements, budget, and timeline.</p>
+                    </div>
+                    
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">2</div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Design</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary">Concept development, floor plans, and 3D visualizations.</p>
+                    </div>
+                    
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">3</div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Documentation</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary">Complete construction documents and engineering calculations.</p>
+                    </div>
+                    
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">4</div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Execution</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary">Construction oversight and project management until completion.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Software Tools Section -->
+        <section class="w-full py-16">
+            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row gap-10 items-center">
+                <div class="flex-1">
+                    <h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-4">Professional Tools</h2>
+                    <p class="text-slate-600 dark:text-text-secondary mb-8">
+                        We use industry-standard software to deliver precise designs, accurate calculations, and professional documentation.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-background-dark shadow-sm border border-slate-200 dark:border-border-dark">
+                            <div class="w-10 h-10 rounded bg-red-600 flex items-center justify-center text-white font-bold text-xs">AC</div>
+                            <span class="text-sm font-semibold text-slate-900 dark:text-white">AutoCAD</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-background-dark shadow-sm border border-slate-200 dark:border-border-dark">
+                            <div class="w-10 h-10 rounded bg-blue-600 flex items-center justify-center text-white font-bold text-xs">Rv</div>
+                            <span class="text-sm font-semibold text-slate-900 dark:text-white">Revit</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-background-dark shadow-sm border border-slate-200 dark:border-border-dark">
+                            <div class="w-10 h-10 rounded bg-orange-600 flex items-center justify-center text-white font-bold text-xs">Sk</div>
+                            <span class="text-sm font-semibold text-slate-900 dark:text-white">SketchUp</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-background-dark shadow-sm border border-slate-200 dark:border-border-dark">
+                            <div class="w-10 h-10 rounded bg-purple-600 flex items-center justify-center text-white font-bold text-xs">3D</div>
+                            <span class="text-sm font-semibold text-slate-900 dark:text-white">3ds Max</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/3 aspect-square md:aspect-auto md:h-[300px] rounded-xl overflow-hidden relative">
+                    <div class="absolute inset-0 bg-primary/20 mix-blend-overlay z-10"></div>
+                    <div class="w-full h-full bg-cover bg-center" style='background-image: url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Special Offer -->
+        <section class="w-full py-8">
+            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-primary to-blue-600 rounded-2xl p-8 md:p-12 relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div>
+                        <h3 class="text-2xl md:text-3xl font-black text-white mb-2">Start With Just $500</h3>
+                        <p class="text-blue-100 text-lg">Begin your dream home project today. View our special package offers!</p>
+                    </div>
+                    <a href="https://drive.google.com/file/d/10qNCDtqIH5rkQO3nPKrCgDoj7D8IwGy0/view" target="_blank" class="bg-white text-primary font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors shadow-lg flex items-center gap-2 whitespace-nowrap">
+                        View Offers
+                        <span class="material-symbols-outlined">open_in_new</span>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <!-- CTA -->
+        <section class="w-full pb-20">
+            <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative overflow-hidden rounded-2xl bg-card-dark px-8 py-16 text-center border border-border-dark">
+                <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#137fec 1px, transparent 1px); background-size: 24px 24px;"></div>
+                <div class="relative z-10 flex flex-col items-center gap-6">
+                    <h2 class="text-3xl md:text-4xl font-black text-white leading-tight">Ready to Build Your Dream?</h2>
+                    <p class="text-text-secondary max-w-2xl text-lg">
+                        Contact us today to discuss your project. We'll help you turn your vision into reality.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4 mt-4">
+                        <a href="contact.html" class="px-8 py-3 rounded-lg bg-primary text-white font-bold hover:bg-blue-600 transition-colors shadow-lg flex items-center gap-2">
+                            Get a Free Quote
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </a>
+                        <a href="https://forms.gle/RduxdAG9H51pnihM8" target="_blank" class="px-8 py-3 rounded-lg border border-border-dark bg-transparent text-white font-bold hover:bg-card-dark transition-colors flex items-center gap-2">
+                            Fill Consultation Form
+                            <span class="material-symbols-outlined">open_in_new</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer class="w-full border-t border-slate-200 dark:border-border-dark bg-white dark:bg-[#111a22] py-8">
+        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
+            <p>© 2025 I-BUILT Haïti. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a class="hover:text-primary transition-colors" href="https://linktr.ee/jamaljacks0n" target="_blank">Linktree</a>
+                <a class="hover:text-primary transition-colors" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+
+</body>
+</html>

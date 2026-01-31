@@ -25,7 +25,11 @@
             theme: {
                 extend: {
                     colors: {
-                        "primary": "#10b981",
+                        "primary": "#85B48A",
+                        "primary-dark": "#6A9A6F",
+                        "primary-light": "#A8CCA9",
+                        "primary-lighter": "#D4E6D5",
+                        "primary-lightest": "#EDF4ED",
                         "background-light": "#f6f7f8",
                         "background-dark": "#101922",
                         "card-dark": "#192633",
@@ -45,7 +49,7 @@
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #101922; }
         ::-webkit-scrollbar-thumb { background: #233648; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #10b981; }
+        ::-webkit-scrollbar-thumb:hover { background: #85B48A; }
     </style>
 </head>
 
@@ -56,9 +60,8 @@
     <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
             <a href="index.html" class="flex items-center gap-3">
-                <div class="text-primary">
-                    <span class="material-symbols-outlined !text-3xl">domain</span>
-                </div>
+                <img src="2.png" alt="I-BUILT Haïti Logo" class="h-10 w-auto dark:hidden">
+                <img src="1.png" alt="I-BUILT Haïti Logo" class="h-10 w-auto hidden dark:block">
                 <div>
                     <h1 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white leading-tight">I-BUILT Haïti</h1>
                     <p class="text-xs text-text-secondary -mt-0.5">Architecture & Engineering</p>
@@ -72,7 +75,7 @@
                 <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html">Contact</a>
             </nav>
             <div class="hidden md:block">
-                <a href="contact.html" class="bg-primary hover:bg-emerald-600 text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors shadow-lg shadow-primary/20 inline-flex items-center gap-2">
+                <a href="contact.html" class="bg-primary hover:bg-primary-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors shadow-lg shadow-primary/20 inline-flex items-center gap-2">
                     <span>Get a Quote</span>
                     <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
                 </a>
@@ -241,7 +244,7 @@
                 <div class="p-6 rounded-xl bg-gradient-to-br from-card-dark to-[#131f2b] border border-border-dark">
                     <h4 class="text-white font-bold mb-2">Interested in a Similar Project?</h4>
                     <p class="text-slate-400 text-sm mb-4">Let's discuss how we can design your dream home with the same attention to detail and quality.</p>
-                    <a href="contact.html" class="w-full flex items-center justify-center gap-2 h-12 rounded-lg bg-primary hover:bg-emerald-600 text-white font-bold transition-all">
+                    <a href="contact.html" class="w-full flex items-center justify-center gap-2 h-12 rounded-lg bg-primary hover:bg-primary-dark text-white font-bold transition-all">
                         <span class="material-symbols-outlined">mail</span>
                         Start Your Project
                     </a>
@@ -255,7 +258,7 @@
     <section class="mt-20 border-t border-border-dark pt-12">
         <div class="flex items-center justify-between mb-8">
             <h3 class="text-2xl font-bold text-white">More Projects</h3>
-            <a href="projects.html" class="text-primary font-medium hover:text-emerald-400 flex items-center gap-1 transition-colors">
+            <a href="projects.html" class="text-primary font-medium hover:text-primary-light flex items-center gap-1 transition-colors">
                 View All
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
             </a>

@@ -90,40 +90,40 @@
             
             <!-- Search -->
             <div>
-                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4">Search</h3>
+                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4" data-i18n="projects.search">Search</h3>
                 <div class="relative group">
-                    <input class="w-full bg-gray-50 dark:bg-card-dark border border-gray-200 dark:border-border-dark rounded-lg py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all placeholder:text-text-secondary" placeholder="Find a project..." />
+                    <input class="w-full bg-gray-50 dark:bg-card-dark border border-gray-200 dark:border-border-dark rounded-lg py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all placeholder:text-text-secondary" data-i18n-placeholder="projects.findProject" placeholder="Find a project..." />
                     <span class="material-symbols-outlined absolute left-3 top-2.5 text-text-secondary group-focus-within:text-primary transition-colors text-[20px]">search</span>
                 </div>
             </div>
             
             <!-- Categories -->
             <div>
-                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4">Project Type</h3>
+                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4" data-i18n="projects.projectType">Project Type</h3>
                 <div class="space-y-2">
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input checked="" class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">All Projects</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.allProjects">All Projects</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">12</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Residential</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.residential">Residential</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">6</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Commercial</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.commercial">Commercial</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">3</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Renovation</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.renovation">Renovation</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">2</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Concept Design</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.conceptDesign">Concept Design</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">1</span>
                     </label>
                 </div>
@@ -131,7 +131,7 @@
             
             <!-- Location Filter -->
             <div>
-                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4">Region</h3>
+                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4" data-i18n="projects.region">Region</h3>
                 <div class="space-y-2">
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded" type="checkbox" />
@@ -155,9 +155,9 @@
             <!-- Contact CTA -->
             <div class="mt-auto pt-6 border-t border-gray-200 dark:border-border-dark">
                 <div class="p-4 bg-gradient-to-br from-card-dark to-[#0f1720] rounded-xl border border-border-dark text-center">
-                    <h4 class="text-white text-sm font-semibold mb-2">Have a project in mind?</h4>
-                    <p class="text-xs text-text-secondary mb-3">Let's discuss how we can build your dream together.</p>
-                    <a href="contact.html" class="block w-full py-2 text-xs font-bold text-primary border border-primary/30 rounded hover:bg-primary/10 transition-colors">
+                    <h4 class="text-white text-sm font-semibold mb-2" data-i18n="projects.haveProject">Have a project in mind?</h4>
+                    <p class="text-xs text-text-secondary mb-3" data-i18n="projects.discussBuild">Let's discuss how we can build your dream together.</p>
+                    <a href="contact.html" class="block w-full py-2 text-xs font-bold text-primary border border-primary/30 rounded hover:bg-primary/10 transition-colors" data-i18n="projects.contactMe">
                         Contact Me
                     </a>
                 </div>
@@ -171,16 +171,16 @@
         <!-- Header Section -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
             <div>
-                <h1 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-2 tracking-tight">Project Portfolio</h1>
-                <p class="text-text-secondary max-w-xl">
+                <h1 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-2 tracking-tight" data-i18n="projects.portfolio">Project Portfolio</h1>
+                <p class="text-text-secondary max-w-xl" data-i18n="projects.portfolioDesc">
                     Explore our collection of residential, commercial, and architectural projects designed and built across Haiti.
                 </p>
             </div>
             <div class="flex items-center gap-3">
-                <span class="text-sm text-text-secondary whitespace-nowrap">Sort by:</span>
+                <span class="text-sm text-text-secondary whitespace-nowrap" data-i18n="projects.sortBy">Sort by:</span>
                 <select class="bg-transparent border border-gray-300 dark:border-border-dark text-gray-900 dark:text-white text-sm rounded-lg focus:ring-primary focus:border-primary block p-2.5">
-                    <option>Newest First</option>
-                    <option>Oldest First</option>
+                    <option data-i18n="projects.newestFirst">Newest First</option>
+                    <option data-i18n="projects.oldestFirst">Oldest First</option>
                     <option>A-Z</option>
                 </select>
             </div>
@@ -195,20 +195,20 @@
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
                     <div class="absolute top-4 left-4">
-                        <span class="inline-flex items-center rounded-md bg-orange-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-orange-100 ring-1 ring-inset ring-orange-500/30">
+                        <span class="inline-flex items-center rounded-md bg-orange-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-orange-100 ring-1 ring-inset ring-orange-500/30" data-i18n="projects.residential">
                             Residential
                         </span>
                     </div>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/20 backdrop-blur-[1px]">
                         <a href="project-detail.html" class="bg-white dark:bg-[#111a22] text-gray-900 dark:text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            View Details
+                            <span data-i18n="projects.viewDetails">View Details</span>
                             <span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
                         </a>
                     </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1">
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2">Modern Villa Design</h3>
-                    <p class="text-sm text-text-secondary mb-4 line-clamp-2">Contemporary residential design with open floor plans, natural lighting, and sustainable building materials.</p>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2" data-i18n="projects.modern.title">Modern Villa Design</h3>
+                    <p class="text-sm text-text-secondary mb-4 line-clamp-2" data-i18n="projects.modern.fullDesc">Contemporary residential design with open floor plans, natural lighting, and sustainable building materials.</p>
                     <div class="mt-auto flex items-center gap-2 text-xs font-medium text-text-secondary border-t border-gray-100 dark:border-border-dark pt-4">
                         <span class="material-symbols-outlined text-[16px]">location_on</span>
                         <span>Pétion-Ville, Haiti</span>
@@ -224,20 +224,20 @@
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
                     <div class="absolute top-4 left-4">
-                        <span class="inline-flex items-center rounded-md bg-purple-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-purple-100 ring-1 ring-inset ring-purple-500/30">
+                        <span class="inline-flex items-center rounded-md bg-purple-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-purple-100 ring-1 ring-inset ring-purple-500/30" data-i18n="projects.commercial">
                             Commercial
                         </span>
                     </div>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/20 backdrop-blur-[1px]">
                         <a href="project-detail.html" class="bg-white dark:bg-[#111a22] text-gray-900 dark:text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            View Details
+                            <span data-i18n="projects.viewDetails">View Details</span>
                             <span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
                         </a>
                     </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1">
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2">Office Complex Design</h3>
-                    <p class="text-sm text-text-secondary mb-4 line-clamp-2">Multi-story commercial building with seismic-resistant structural design and modern facade treatment.</p>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2" data-i18n="projects.officeComplex.title">Office Complex Design</h3>
+                    <p class="text-sm text-text-secondary mb-4 line-clamp-2" data-i18n="projects.officeComplex.desc">Multi-story commercial building with seismic-resistant structural design and modern facade treatment.</p>
                     <div class="mt-auto flex items-center gap-2 text-xs font-medium text-text-secondary border-t border-gray-100 dark:border-border-dark pt-4">
                         <span class="material-symbols-outlined text-[16px]">location_on</span>
                         <span>Port-au-Prince, Haiti</span>
@@ -253,20 +253,20 @@
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
                     <div class="absolute top-4 left-4">
-                        <span class="inline-flex items-center rounded-md bg-orange-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-orange-100 ring-1 ring-inset ring-orange-500/30">
+                        <span class="inline-flex items-center rounded-md bg-orange-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-orange-100 ring-1 ring-inset ring-orange-500/30" data-i18n="projects.residential">
                             Residential
                         </span>
                     </div>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/20 backdrop-blur-[1px]">
                         <a href="project-detail.html" class="bg-white dark:bg-[#111a22] text-gray-900 dark:text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            View Details
+                            <span data-i18n="projects.viewDetails">View Details</span>
                             <span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
                         </a>
                     </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1">
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2">Family Residence</h3>
-                    <p class="text-sm text-text-secondary mb-4 line-clamp-2">Custom family home featuring tropical design elements, efficient space planning, and outdoor living areas.</p>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2" data-i18n="projects.familyRes.title">Family Residence</h3>
+                    <p class="text-sm text-text-secondary mb-4 line-clamp-2" data-i18n="projects.familyRes.desc">Custom family home featuring tropical design elements, efficient space planning, and outdoor living areas.</p>
                     <div class="mt-auto flex items-center gap-2 text-xs font-medium text-text-secondary border-t border-gray-100 dark:border-border-dark pt-4">
                         <span class="material-symbols-outlined text-[16px]">location_on</span>
                         <span>Cap-Haïtien, Haiti</span>
@@ -282,22 +282,28 @@
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
                     <div class="absolute top-4 left-4">
-                        <span class="inline-flex items-center rounded-md bg-green-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-green-100 ring-1 ring-inset ring-green-500/30">
+                        <span class="inline-flex items-center rounded-md bg-green-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-green-100 ring-1 ring-inset ring-green-500/30" data-i18n="projects.renovation">
                             Renovation
                         </span>
                     </div>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/20 backdrop-blur-[1px]">
                         <a href="project-detail.html" class="bg-white dark:bg-[#111a22] text-gray-900 dark:text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            View Details
+                            <span data-i18n="projects.viewDetails">View Details</span>
                             <span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
                         </a>
                     </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1">
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2">Heritage Home Renovation</h3>
-                    <p class="text-sm text-text-secondary mb-4 line-clamp-2">Restoration and modernization of a classic Haitian home while preserving its historical character.</p>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2" data-i18n="projects.heritage.title">Heritage Home Renovation</h3>
+                    <p class="text-sm text-text-secondary mb-4 line-clamp-2" data-i18n="projects.heritage.desc">Restoration and modernization of a classic Haitian home while preserving its historical character.</p>
                     <div class="mt-auto flex items-center gap-2 text-xs font-medium text-text-secondary border-t border-gray-100 dark:border-border-dark pt-4">
                         <span class="material-symbols-outlined text-[16px]">location_on</span>
+                        <span>Jacmel, Haiti</span>
+                        <span class="mx-1">•</span>
+                        <span>2023</span>
+                    </div>
+                </div>
+            </div>
                         <span>Jacmel, Haiti</span>
                         <span class="mx-1">•</span>
                         <span>2023</span>
@@ -311,20 +317,20 @@
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
                     <div class="absolute top-4 left-4">
-                        <span class="inline-flex items-center rounded-md bg-orange-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-orange-100 ring-1 ring-inset ring-orange-500/30">
+                        <span class="inline-flex items-center rounded-md bg-orange-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-orange-100 ring-1 ring-inset ring-orange-500/30" data-i18n="projects.residential">
                             Residential
                         </span>
                     </div>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/20 backdrop-blur-[1px]">
                         <a href="project-detail.html" class="bg-white dark:bg-[#111a22] text-gray-900 dark:text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            View Details
+                            <span data-i18n="projects.viewDetails">View Details</span>
                             <span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
                         </a>
                     </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1">
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2">Luxury Pool House</h3>
-                    <p class="text-sm text-text-secondary mb-4 line-clamp-2">Premium residential design featuring infinity pool, outdoor entertainment area, and panoramic views.</p>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2" data-i18n="projects.luxury.title">Luxury Pool House</h3>
+                    <p class="text-sm text-text-secondary mb-4 line-clamp-2" data-i18n="projects.luxury.desc">Premium residential design featuring infinity pool, outdoor entertainment area, and panoramic views.</p>
                     <div class="mt-auto flex items-center gap-2 text-xs font-medium text-text-secondary border-t border-gray-100 dark:border-border-dark pt-4">
                         <span class="material-symbols-outlined text-[16px]">location_on</span>
                         <span>Pétion-Ville, Haiti</span>
@@ -340,20 +346,20 @@
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
                     <div class="absolute top-4 left-4">
-                        <span class="inline-flex items-center rounded-md bg-purple-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-purple-100 ring-1 ring-inset ring-purple-500/30">
+                        <span class="inline-flex items-center rounded-md bg-purple-500/10 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-purple-100 ring-1 ring-inset ring-purple-500/30" data-i18n="projects.commercial">
                             Commercial
                         </span>
                     </div>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary/20 backdrop-blur-[1px]">
                         <a href="project-detail.html" class="bg-white dark:bg-[#111a22] text-gray-900 dark:text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            View Details
+                            <span data-i18n="projects.viewDetails">View Details</span>
                             <span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
                         </a>
                     </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1">
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2">Mixed-Use Development</h3>
-                    <p class="text-sm text-text-secondary mb-4 line-clamp-2">Urban development combining retail spaces, apartments, and community areas in a single complex.</p>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors mb-2" data-i18n="projects.mixedUse.title">Mixed-Use Development</h3>
+                    <p class="text-sm text-text-secondary mb-4 line-clamp-2" data-i18n="projects.mixedUse.desc">Urban development combining retail spaces, apartments, and community areas in a single complex.</p>
                     <div class="mt-auto flex items-center gap-2 text-xs font-medium text-text-secondary border-t border-gray-100 dark:border-border-dark pt-4">
                         <span class="material-symbols-outlined text-[16px]">location_on</span>
                         <span>Port-au-Prince, Haiti</span>

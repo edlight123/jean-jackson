@@ -921,6 +921,380 @@ const translations = {
         en: "Creole",
         fr: "Créole",
         ht: "Kreyòl"
+    },
+
+    // Index Page - Expertise Cards
+    "expertise.residential.title": {
+        en: "Residential Design",
+        fr: "Conception résidentielle",
+        ht: "Konsepsyon rezidansyèl"
+    },
+    "expertise.residential.desc": {
+        en: "Custom home designs that blend modern aesthetics with practical functionality. From concept sketches to detailed construction documents.",
+        fr: "Conceptions de maisons personnalisées alliant esthétique moderne et fonctionnalité pratique. Des croquis conceptuels aux documents de construction détaillés.",
+        ht: "Konsepsyon kay pèsonalize ki melanje estetik modèn ak fonksyonalite pratik. Soti nan eskis konsèp rive nan dokiman konstriksyon detaye."
+    },
+    "expertise.structural.title": {
+        en: "Structural Engineering",
+        fr: "Ingénierie structurelle",
+        ht: "Jeni estriktirèl"
+    },
+    "expertise.structural.desc": {
+        en: "Seismic-resistant structural analysis and design ensuring safety and longevity. Built to withstand Haiti's unique environmental challenges.",
+        fr: "Analyse et conception structurelle résistantes aux séismes garantissant sécurité et longévité. Conçu pour résister aux défis environnementaux uniques d'Haïti.",
+        ht: "Analiz ak konsepsyon estriktirèl ki reziste tranblemanntè ki asire sekirite ak dire lontan. Bati pou reziste defi anviwònman inik Ayiti a."
+    },
+    "expertise.projectMgmt.title": {
+        en: "Project Management",
+        fr: "Gestion de projet",
+        ht: "Jesyon pwojè"
+    },
+    "expertise.projectMgmt.desc": {
+        en: "End-to-end project oversight from planning to completion. We coordinate all aspects to deliver on time and within budget.",
+        fr: "Supervision de projet de bout en bout, de la planification à l'achèvement. Nous coordonnons tous les aspects pour livrer dans les délais et le budget.",
+        ht: "Sipèvizyon pwojè konplè soti nan planifikasyon rive nan fin. Nou kowòdone tout aspè pou livre alè ak nan bidjè."
+    },
+    "expertise.learnMore": {
+        en: "Learn more",
+        fr: "En savoir plus",
+        ht: "Aprann plis"
+    },
+
+    // Index Page - Featured Projects
+    "projects.modern.title": {
+        en: "Modern Villa Design",
+        fr: "Design de villa moderne",
+        ht: "Konsepsyon vila modèn"
+    },
+    "projects.modern.desc": {
+        en: "Contemporary residential design featuring open floor plans and sustainable materials.",
+        fr: "Design résidentiel contemporain avec plans ouverts et matériaux durables.",
+        ht: "Konsepsyon rezidansyèl kontanporen ki gen plan etaj ouvè ak materyèl dirab."
+    },
+    "projects.office.title": {
+        en: "Office Complex",
+        fr: "Complexe de bureaux",
+        ht: "Konplèks biwo"
+    },
+    "projects.office.desc": {
+        en: "Multi-story commercial building with seismic-resistant structural design.",
+        fr: "Bâtiment commercial à plusieurs étages avec conception structurelle résistante aux séismes.",
+        ht: "Bilding komèsyal plizyè etaj ak konsepsyon estriktirèl ki reziste tranblemanntè."
+    },
+    "projects.family.title": {
+        en: "Family Residence",
+        fr: "Résidence familiale",
+        ht: "Rezidans familyal"
+    },
+    "projects.family.desc": {
+        en: "Custom family home with tropical design elements and efficient space planning.",
+        fr: "Maison familiale personnalisée avec des éléments de design tropical et une planification efficace de l'espace.",
+        ht: "Kay fanmi pèsonalize ak eleman konsepsyon tropikal ak planifikasyon espas efikas."
+    },
+
+    // Index Page - I-BUILT Badge
+    "ibuilt.badge.title": {
+        en: "I-BUILT Haïti",
+        fr: "I-BUILT Haïti",
+        ht: "I-BUILT Ayiti"
+    },
+    "ibuilt.badge.desc": {
+        en: "Co-founder delivering excellence across Haiti.",
+        fr: "Co-fondateur offrant l'excellence à travers Haïti.",
+        ht: "Ko-fondatè ki bay ekselans nan tout Ayiti."
+    },
+
+    // Services Page - Process Section
+    "services.process.title": {
+        en: "Our Process",
+        fr: "Notre processus",
+        ht: "Pwosesis nou"
+    },
+    "services.process.step1.title": {
+        en: "Consultation",
+        fr: "Consultation",
+        ht: "Konsiltasyon"
+    },
+    "services.process.step1.desc": {
+        en: "We discuss your vision, requirements, budget, and timeline.",
+        fr: "Nous discutons de votre vision, vos exigences, votre budget et votre calendrier.",
+        ht: "Nou diskite vizyon ou, kondisyon ou, bidjè ou, ak kalandriye ou."
+    },
+    "services.process.step2.title": {
+        en: "Design",
+        fr: "Conception",
+        ht: "Konsepsyon"
+    },
+    "services.process.step2.desc": {
+        en: "Concept development, floor plans, and 3D visualizations.",
+        fr: "Développement de concept, plans d'étage et visualisations 3D.",
+        ht: "Devlopman konsèp, plan etaj, ak vizyalizasyon 3D."
+    },
+    "services.process.step3.title": {
+        en: "Documentation",
+        fr: "Documentation",
+        ht: "Dokimantasyon"
+    },
+    "services.process.step3.desc": {
+        en: "Complete construction documents and engineering calculations.",
+        fr: "Documents de construction complets et calculs d'ingénierie.",
+        ht: "Dokiman konstriksyon konplè ak kalkil jeni."
+    },
+    "services.process.step4.title": {
+        en: "Execution",
+        fr: "Exécution",
+        ht: "Egzekisyon"
+    },
+    "services.process.step4.desc": {
+        en: "Construction oversight and project management until completion.",
+        fr: "Supervision de la construction et gestion de projet jusqu'à l'achèvement.",
+        ht: "Sipèvizyon konstriksyon ak jesyon pwojè jiskaske fini."
+    },
+
+    // Services Page - Professional Tools
+    "services.tools.title": {
+        en: "Professional Tools",
+        fr: "Outils professionnels",
+        ht: "Zouti pwofesyonèl"
+    },
+    "services.tools.desc": {
+        en: "We use industry-standard software to deliver precise designs, accurate calculations, and professional documentation.",
+        fr: "Nous utilisons des logiciels standards de l'industrie pour fournir des conceptions précises, des calculs exacts et une documentation professionnelle.",
+        ht: "Nou itilize lojisyèl estanda endistri pou bay konsepsyon presi, kalkil egzak, ak dokimantasyon pwofesyonèl."
+    },
+
+    // Services Page - Special Offer Section
+    "services.offer.title": {
+        en: "Start With Just $500",
+        fr: "Commencez avec seulement 500 $",
+        ht: "Kòmanse ak sèlman $500"
+    },
+    "services.offer.desc": {
+        en: "Begin your dream home project today. View our special package offers!",
+        fr: "Commencez votre projet de maison de rêve aujourd'hui. Découvrez nos offres spéciales!",
+        ht: "Kòmanse pwojè kay rèv ou jodi a. Wè òf pakè espesyal nou yo!"
+    },
+    "services.offer.btn": {
+        en: "View Offers",
+        fr: "Voir les offres",
+        ht: "Wè òf yo"
+    },
+
+    // Services Page - CTA Section
+    "services.cta.title": {
+        en: "Ready to Build Your Dream?",
+        fr: "Prêt à construire votre rêve?",
+        ht: "Pare pou bati rèv ou?"
+    },
+    "services.cta.desc": {
+        en: "Contact us today to discuss your project. We'll help you turn your vision into reality.",
+        fr: "Contactez-nous aujourd'hui pour discuter de votre projet. Nous vous aiderons à concrétiser votre vision.",
+        ht: "Kontakte nou jodi a pou diskite pwojè ou. Nou pral ede w fè vizyon ou vin reyalite."
+    },
+    "services.cta.quote": {
+        en: "Get a Free Quote",
+        fr: "Obtenir un devis gratuit",
+        ht: "Jwenn yon devi gratis"
+    },
+
+    // Services Page - Hero Extra
+    "services.hero.designExcellence": {
+        en: "Design Excellence",
+        fr: "Excellence en conception",
+        ht: "Ekselans nan konsepsyon"
+    },
+    "services.hero.buildingNextGen": {
+        en: "Building for the next generation",
+        fr: "Construire pour la prochaine génération",
+        ht: "Bati pou pwochen jenerasyon an"
+    },
+
+    // Projects Page - Card Content
+    "projects.viewDetails": {
+        en: "View Details",
+        fr: "Voir les détails",
+        ht: "Wè detay yo"
+    },
+    "projects.modern.fullDesc": {
+        en: "Contemporary residential design with open floor plans, natural lighting, and sustainable building materials.",
+        fr: "Design résidentiel contemporain avec plans ouverts, éclairage naturel et matériaux de construction durables.",
+        ht: "Konsepsyon rezidansyèl kontanporen ak plan etaj ouvè, limyè natirèl, ak materyèl konstriksyon dirab."
+    },
+    "projects.officeComplex.title": {
+        en: "Office Complex Design",
+        fr: "Design de complexe de bureaux",
+        ht: "Konsepsyon konplèks biwo"
+    },
+    "projects.officeComplex.desc": {
+        en: "Multi-story commercial building with seismic-resistant structural design and modern facade treatment.",
+        fr: "Bâtiment commercial à plusieurs étages avec conception structurelle résistante aux séismes et traitement de façade moderne.",
+        ht: "Bilding komèsyal plizyè etaj ak konsepsyon estriktirèl ki reziste tranblemanntè ak tretman fasad modèn."
+    },
+    "projects.familyRes.title": {
+        en: "Family Residence",
+        fr: "Résidence familiale",
+        ht: "Rezidans fanmi"
+    },
+    "projects.familyRes.desc": {
+        en: "Custom family home featuring tropical design elements, efficient space planning, and outdoor living areas.",
+        fr: "Maison familiale personnalisée avec des éléments de design tropical, une planification efficace de l'espace et des espaces de vie extérieurs.",
+        ht: "Kay fanmi pèsonalize ki gen eleman konsepsyon tropikal, planifikasyon espas efikas, ak espas lavi deyò."
+    },
+    "projects.heritage.title": {
+        en: "Heritage Home Renovation",
+        fr: "Rénovation de maison patrimoniale",
+        ht: "Renovasyon kay istorik"
+    },
+    "projects.heritage.desc": {
+        en: "Restoration and modernization of a classic Haitian home while preserving its historical character.",
+        fr: "Restauration et modernisation d'une maison haïtienne classique tout en préservant son caractère historique.",
+        ht: "Restorasyon ak modènizasyon yon kay ayisyen klasik pandan l ap prezève karaktè istorik li."
+    },
+    "projects.luxury.title": {
+        en: "Luxury Pool House",
+        fr: "Maison de luxe avec piscine",
+        ht: "Kay liks ak pisin"
+    },
+    "projects.luxury.desc": {
+        en: "Premium residential design featuring infinity pool, outdoor entertainment area, and panoramic views.",
+        fr: "Design résidentiel premium avec piscine à débordement, espace de divertissement extérieur et vues panoramiques.",
+        ht: "Konsepsyon rezidansyèl wo kalite ki gen pisin san limit, espas divètisman deyò, ak vi panoramik."
+    },
+    "projects.mixedUse.title": {
+        en: "Mixed-Use Development",
+        fr: "Développement mixte",
+        ht: "Devlopman melanje"
+    },
+    "projects.mixedUse.desc": {
+        en: "Urban development combining retail spaces, apartments, and community areas in a single complex.",
+        fr: "Développement urbain combinant espaces commerciaux, appartements et espaces communautaires dans un seul complexe.",
+        ht: "Devlopman iben ki konbine espas komèsyal, apatman, ak espas kominotè nan yon sèl konplèks."
+    },
+
+    // Contact Page - FAQ
+    "contact.faq.title": {
+        en: "Frequently Asked Questions",
+        fr: "Questions fréquemment posées",
+        ht: "Kesyon yo poze souvan"
+    },
+    "contact.faq.q1": {
+        en: "How much does a consultation cost?",
+        fr: "Combien coûte une consultation?",
+        ht: "Konbyen yon konsiltasyon koute?"
+    },
+    "contact.faq.a1": {
+        en: "Initial consultations are free! We'll discuss your project requirements and provide guidance on next steps.",
+        fr: "Les consultations initiales sont gratuites! Nous discuterons des exigences de votre projet et vous guiderons pour les prochaines étapes.",
+        ht: "Premye konsiltasyon yo gratis! Nou pral diskite kondisyon pwojè ou epi bay konsèy sou etap ki vin apre yo."
+    },
+    "contact.faq.q2": {
+        en: "What areas do you serve?",
+        fr: "Quelles régions desservez-vous?",
+        ht: "Ki zòn ou sèvi?"
+    },
+    "contact.faq.a2": {
+        en: "We provide services throughout Haiti, including Port-au-Prince, Pétion-Ville, Cap-Haïtien, Jacmel, and surrounding areas.",
+        fr: "Nous fournissons des services dans tout Haïti, y compris Port-au-Prince, Pétion-Ville, Cap-Haïtien, Jacmel et les régions environnantes.",
+        ht: "Nou bay sèvis nan tout Ayiti, ki gen ladan Pòtoprens, Petyonvil, Okap, Jakmèl, ak zòn ki antoure yo."
+    },
+    "contact.faq.q3": {
+        en: "How long does a typical project take?",
+        fr: "Combien de temps dure un projet typique?",
+        ht: "Konbyen tan yon pwojè tipik pran?"
+    },
+    "contact.faq.a3": {
+        en: "Project timelines vary based on scope and complexity. A typical residential design takes 4-8 weeks for complete plans.",
+        fr: "Les délais de projet varient selon la portée et la complexité. Une conception résidentielle typique prend 4 à 8 semaines pour des plans complets.",
+        ht: "Kalandriye pwojè varye selon pòte ak konpleksite. Yon konsepsyon rezidansyèl tipik pran 4-8 semèn pou plan konplè."
+    },
+    "contact.faq.q4": {
+        en: "Do you handle construction as well?",
+        fr: "Gérez-vous aussi la construction?",
+        ht: "Èske ou jere konstriksyon tou?"
+    },
+    "contact.faq.a4": {
+        en: "We provide project management and construction oversight. We work with trusted contractors to ensure quality execution.",
+        fr: "Nous fournissons la gestion de projet et la supervision de la construction. Nous travaillons avec des entrepreneurs de confiance pour assurer une exécution de qualité.",
+        ht: "Nou bay jesyon pwojè ak sipèvizyon konstriksyon. Nou travay ak kontraktè nou fè konfyans pou asire egzekisyon kalite."
+    },
+
+    // Contact Page - Additional
+    "contact.specialOffers": {
+        en: "Special Offers",
+        fr: "Offres spéciales",
+        ht: "Òf espesyal"
+    },
+    "contact.specialOffersDesc": {
+        en: "Start your dream project with just $500! View our affordable package options.",
+        fr: "Commencez votre projet de rêve avec seulement 500 $! Découvrez nos options de forfaits abordables.",
+        ht: "Kòmanse pwojè rèv ou ak sèlman $500! Wè opsyon pakè abòdab nou yo."
+    },
+    "contact.ibuiltHaiti": {
+        en: "I-BUILT Haïti",
+        fr: "I-BUILT Haïti",
+        ht: "I-BUILT Ayiti"
+    },
+    "contact.ibuiltDesc": {
+        en: "Learn more about our company and the full range of services we offer.",
+        fr: "En savoir plus sur notre entreprise et la gamme complète de services que nous offrons.",
+        ht: "Aprann plis sou konpayi nou an ak tout sèvis nou ofri yo."
+    },
+    "contact.visitIbuilt": {
+        en: "Visit I-BUILT",
+        fr: "Visiter I-BUILT",
+        ht: "Vizite I-BUILT"
+    },
+    "contact.viewOffers": {
+        en: "View Offers",
+        fr: "Voir les offres",
+        ht: "Wè òf yo"
+    },
+    "contact.fillOutForm": {
+        en: "Fill Out Form",
+        fr: "Remplir le formulaire",
+        ht: "Ranpli fòmilè a"
+    },
+
+    // About Page - Additional
+    "about.civilEngineering": {
+        en: "Civil Engineering",
+        fr: "Génie civil",
+        ht: "Jeni sivil"
+    },
+    "about.structuralDesign": {
+        en: "Structural Design",
+        fr: "Conception structurelle",
+        ht: "Konsepsyon estriktirèl"
+    },
+    "about.projectManagement": {
+        en: "Project Management",
+        fr: "Gestion de projet",
+        ht: "Jesyon pwojè"
+    },
+    "about.architecture": {
+        en: "Architecture",
+        fr: "Architecture",
+        ht: "Achitekti"
+    },
+    "about.downloadOffers": {
+        en: "View Our Offers",
+        fr: "Voir nos offres",
+        ht: "Wè òf nou yo"
+    },
+    "about.getInTouch": {
+        en: "Get in Touch",
+        fr: "Contactez-nous",
+        ht: "Kontakte nou"
+    },
+    "about.contactCTA.title": {
+        en: "Ready to Start Your Project?",
+        fr: "Prêt à démarrer votre projet?",
+        ht: "Pare pou kòmanse pwojè ou?"
+    },
+    "about.contactCTA.desc": {
+        en: "Let's discuss your vision and create a plan to bring your dream project to life. Contact me today for a free consultation.",
+        fr: "Discutons de votre vision et créons un plan pour donner vie à votre projet de rêve. Contactez-moi aujourd'hui pour une consultation gratuite.",
+        ht: "Ann diskite vizyon ou epi kreye yon plan pou fè pwojè rèv ou vin reyalite. Kontakte m jodi a pou yon konsiltasyon gratis."
     }
 };
 

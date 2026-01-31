@@ -61,19 +61,19 @@
     <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
             <a href="index.html" class="flex items-center">
-                <img src="ibuilt_black.png" alt="I-BUILT Haïti" class="h-[60px] w-auto dark:hidden">
-                <img src="ibuilt_white.png" alt="I-BUILT Haïti" class="h-[60px] w-auto hidden dark:block">
+                <img src="1.png" alt="I-BUILT Haïti" class="h-[60px] w-auto dark:hidden">
+                <img src="2.png" alt="I-BUILT Haïti" class="h-[60px] w-auto hidden dark:block">
             </a>
             <nav class="hidden md:flex items-center gap-8">
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html">Home</a>
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="services.html">Services</a>
-                <a class="text-sm font-medium text-primary" href="projects.html">Projects</a>
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html">About</a>
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html">Contact</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html" data-i18n="nav.home">Home</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="services.html" data-i18n="nav.services">Services</a>
+                <a class="text-sm font-medium text-primary" href="projects.html" data-i18n="nav.projects">Projects</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html" data-i18n="nav.about">About</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html" data-i18n="nav.contact">Contact</a>
             </nav>
             <div class="hidden md:block">
                 <a href="contact.html" class="bg-primary hover:bg-primary-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors shadow-lg shadow-primary/20 inline-flex items-center gap-2">
-                    <span>Get a Quote</span>
+                    <span data-i18n="nav.getQuote">Get a Quote</span>
                     <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
                 </a>
             </div>
@@ -90,40 +90,40 @@
             
             <!-- Search -->
             <div>
-                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4">Search</h3>
+                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4" data-i18n="projects.search">Search</h3>
                 <div class="relative group">
-                    <input class="w-full bg-gray-50 dark:bg-card-dark border border-gray-200 dark:border-border-dark rounded-lg py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all placeholder:text-text-secondary" placeholder="Find a project..." />
+                    <input class="w-full bg-gray-50 dark:bg-card-dark border border-gray-200 dark:border-border-dark rounded-lg py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all placeholder:text-text-secondary" data-i18n-placeholder="projects.findProject" placeholder="Find a project..." />
                     <span class="material-symbols-outlined absolute left-3 top-2.5 text-text-secondary group-focus-within:text-primary transition-colors text-[20px]">search</span>
                 </div>
             </div>
             
             <!-- Categories -->
             <div>
-                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4">Project Type</h3>
+                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4" data-i18n="projects.projectType">Project Type</h3>
                 <div class="space-y-2">
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input checked="" class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">All Projects</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.allProjects">All Projects</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">12</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Residential</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.residential">Residential</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">6</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Commercial</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.commercial">Commercial</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">3</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Renovation</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.renovation">Renovation</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">2</span>
                     </label>
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded-full" name="category" type="radio" />
-                        <span class="text-sm font-medium group-hover:text-primary transition-colors">Concept Design</span>
+                        <span class="text-sm font-medium group-hover:text-primary transition-colors" data-i18n="projects.conceptDesign">Concept Design</span>
                         <span class="ml-auto text-xs text-text-secondary bg-gray-100 dark:bg-card-dark px-2 py-0.5 rounded-full border dark:border-border-dark">1</span>
                     </label>
                 </div>
@@ -131,7 +131,7 @@
             
             <!-- Location Filter -->
             <div>
-                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4">Region</h3>
+                <h3 class="text-sm font-bold uppercase tracking-wider text-text-secondary mb-4" data-i18n="projects.region">Region</h3>
                 <div class="space-y-2">
                     <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 dark:hover:bg-card-dark cursor-pointer transition-colors group">
                         <input class="w-4 h-4 text-primary bg-transparent border-gray-400 dark:border-gray-600 focus:ring-primary rounded" type="checkbox" />
@@ -155,9 +155,9 @@
             <!-- Contact CTA -->
             <div class="mt-auto pt-6 border-t border-gray-200 dark:border-border-dark">
                 <div class="p-4 bg-gradient-to-br from-card-dark to-[#0f1720] rounded-xl border border-border-dark text-center">
-                    <h4 class="text-white text-sm font-semibold mb-2">Have a project in mind?</h4>
-                    <p class="text-xs text-text-secondary mb-3">Let's discuss how we can build your dream together.</p>
-                    <a href="contact.html" class="block w-full py-2 text-xs font-bold text-primary border border-primary/30 rounded hover:bg-primary/10 transition-colors">
+                    <h4 class="text-white text-sm font-semibold mb-2" data-i18n="projects.haveProject">Have a project in mind?</h4>
+                    <p class="text-xs text-text-secondary mb-3" data-i18n="projects.discussBuild">Let's discuss how we can build your dream together.</p>
+                    <a href="contact.html" class="block w-full py-2 text-xs font-bold text-primary border border-primary/30 rounded hover:bg-primary/10 transition-colors" data-i18n="projects.contactMe">
                         Contact Me
                     </a>
                 </div>
@@ -171,16 +171,16 @@
         <!-- Header Section -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
             <div>
-                <h1 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-2 tracking-tight">Project Portfolio</h1>
-                <p class="text-text-secondary max-w-xl">
+                <h1 class="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-2 tracking-tight" data-i18n="projects.portfolio">Project Portfolio</h1>
+                <p class="text-text-secondary max-w-xl" data-i18n="projects.portfolioDesc">
                     Explore our collection of residential, commercial, and architectural projects designed and built across Haiti.
                 </p>
             </div>
             <div class="flex items-center gap-3">
-                <span class="text-sm text-text-secondary whitespace-nowrap">Sort by:</span>
+                <span class="text-sm text-text-secondary whitespace-nowrap" data-i18n="projects.sortBy">Sort by:</span>
                 <select class="bg-transparent border border-gray-300 dark:border-border-dark text-gray-900 dark:text-white text-sm rounded-lg focus:ring-primary focus:border-primary block p-2.5">
-                    <option>Newest First</option>
-                    <option>Oldest First</option>
+                    <option data-i18n="projects.newestFirst">Newest First</option>
+                    <option data-i18n="projects.oldestFirst">Oldest First</option>
                     <option>A-Z</option>
                 </select>
             </div>
@@ -388,14 +388,32 @@
 
 <!-- Footer -->
 <footer class="bg-card-dark border-t border-border-dark py-8">
-    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-text-secondary text-sm">© 2025 I-BUILT Haïti. All rights reserved.</p>
-        <div class="flex gap-6">
-            <a class="text-text-secondary hover:text-primary text-sm transition-colors" href="https://linktr.ee/jamaljacks0n" target="_blank">Linktree</a>
-            <a class="text-text-secondary hover:text-primary text-sm transition-colors" href="contact.html">Contact</a>
+    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
+            <p class="text-text-secondary text-sm">© 2025 I-BUILT Haïti. <span data-i18n="footer.rights">All rights reserved.</span></p>
+            <div class="flex gap-6">
+                <a class="text-text-secondary hover:text-primary text-sm transition-colors" href="https://linktr.ee/jamaljacks0n" target="_blank">Linktree</a>
+                <a class="text-text-secondary hover:text-primary text-sm transition-colors" href="contact.html" data-i18n="nav.contact">Contact</a>
+            </div>
+        </div>
+        <!-- Language Selector -->
+        <div class="flex justify-center gap-2 pt-4 border-t border-border-dark">
+            <span class="text-text-secondary text-sm mr-2" data-i18n="footer.language">Language:</span>
+            <button onclick="changeLanguage('en')" data-lang-btn="en" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-border-dark text-slate-300 hover:bg-primary/20">
+                🇺🇸 <span data-i18n="lang.english">EN</span>
+            </button>
+            <button onclick="changeLanguage('fr')" data-lang-btn="fr" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-border-dark text-slate-300 hover:bg-primary/20">
+                🇫🇷 <span data-i18n="lang.french">FR</span>
+            </button>
+            <button onclick="changeLanguage('ht')" data-lang-btn="ht" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-border-dark text-slate-300 hover:bg-primary/20">
+                🇭🇹 <span data-i18n="lang.creole">HT</span>
+            </button>
         </div>
     </div>
 </footer>
+
+<!-- Translation Script -->
+<script src="translations.js"></script>
 
 </body>
 </html>

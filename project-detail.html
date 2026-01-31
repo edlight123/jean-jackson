@@ -60,19 +60,19 @@
     <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
             <a href="index.html" class="flex items-center">
-                <img src="ibuilt_black.png" alt="I-BUILT Haïti" class="h-[60px] w-auto dark:hidden">
-                <img src="ibuilt_white.png" alt="I-BUILT Haïti" class="h-[60px] w-auto hidden dark:block">
+                <img src="1.png" alt="I-BUILT Haïti" class="h-[60px] w-auto dark:hidden">
+                <img src="2.png" alt="I-BUILT Haïti" class="h-[60px] w-auto hidden dark:block">
             </a>
             <nav class="hidden md:flex items-center gap-8">
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html">Home</a>
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="services.html">Services</a>
-                <a class="text-sm font-medium text-primary" href="projects.html">Projects</a>
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html">About</a>
-                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html">Contact</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html" data-i18n="nav.home">Home</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="services.html" data-i18n="nav.services">Services</a>
+                <a class="text-sm font-medium text-primary" href="projects.html" data-i18n="nav.projects">Projects</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html" data-i18n="nav.about">About</a>
+                <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html" data-i18n="nav.contact">Contact</a>
             </nav>
             <div class="hidden md:block">
                 <a href="contact.html" class="bg-primary hover:bg-primary-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors shadow-lg shadow-primary/20 inline-flex items-center gap-2">
-                    <span>Get a Quote</span>
+                    <span data-i18n="nav.getQuote">Get a Quote</span>
                     <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
                 </a>
             </div>
@@ -86,9 +86,9 @@
     
     <!-- Breadcrumb -->
     <nav class="mb-6 flex items-center gap-2 text-sm text-text-secondary">
-        <a href="index.html" class="hover:text-primary transition-colors">Home</a>
+        <a href="index.html" class="hover:text-primary transition-colors" data-i18n="nav.home">Home</a>
         <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-        <a href="projects.html" class="hover:text-primary transition-colors">Projects</a>
+        <a href="projects.html" class="hover:text-primary transition-colors" data-i18n="nav.projects">Projects</a>
         <span class="material-symbols-outlined text-[16px]">chevron_right</span>
         <span class="text-white">Modern Villa Design</span>
     </nav>
@@ -100,7 +100,7 @@
         </div>
         <div class="absolute bottom-0 left-0 z-20 p-6 md:p-10 w-full md:max-w-3xl">
             <div class="flex items-center gap-2 mb-3">
-                <span class="px-2 py-1 rounded bg-green-500/20 text-green-400 border border-green-500/30 text-xs font-bold uppercase tracking-wider">Completed</span>
+                <span class="px-2 py-1 rounded bg-green-500/20 text-green-400 border border-green-500/30 text-xs font-bold uppercase tracking-wider" data-i18n="projectDetail.completed">Completed</span>
                 <span class="flex items-center gap-1 text-slate-300 text-xs font-medium uppercase tracking-wider">
                     <span class="material-symbols-outlined text-[16px]">location_on</span>
                     Pétion-Ville, Haiti
@@ -121,7 +121,7 @@
             <div class="flex items-center justify-between border-b border-border-dark pb-4">
                 <h3 class="text-xl font-bold text-white flex items-center gap-2">
                     <span class="material-symbols-outlined text-primary">photo_library</span>
-                    Project Gallery
+                    <span data-i18n="projectDetail.gallery">Project Gallery</span>
                 </h3>
             </div>
             
@@ -129,7 +129,7 @@
             <div class="group relative rounded-xl overflow-hidden border border-border-dark bg-card-dark">
                 <div class="absolute top-4 left-4 z-10 bg-black/70 backdrop-blur px-3 py-1 rounded text-xs font-mono text-white border border-white/10 flex items-center gap-2">
                     <span class="material-symbols-outlined text-sm text-primary">architecture</span>
-                    Floor Plan
+                    <span data-i18n="projectDetail.floorPlan">Floor Plan</span>
                 </div>
                 <img alt="Architectural floor plan showing room layout and dimensions" class="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
                 <div class="p-4 bg-card-dark">
@@ -163,7 +163,7 @@
             <div class="group relative rounded-xl overflow-hidden border border-border-dark bg-card-dark">
                 <div class="absolute top-4 left-4 z-10 bg-black/70 backdrop-blur px-3 py-1 rounded text-xs font-mono text-white border border-white/10 flex items-center gap-2">
                     <span class="material-symbols-outlined text-sm text-primary">home</span>
-                    Exterior View
+                    <span data-i18n="projectDetail.exteriorView">Exterior View</span>
                 </div>
                 <img alt="Exterior facade of the modern villa" class="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" />
                 <div class="p-4 bg-card-dark">
@@ -179,25 +179,25 @@
                 <!-- Stats Card -->
                 <div class="rounded-xl bg-card-dark border border-border-dark overflow-hidden shadow-xl">
                     <div class="bg-border-dark/50 px-5 py-3 border-b border-border-dark flex justify-between items-center">
-                        <h4 class="text-sm font-bold text-white uppercase tracking-wider">Project Details</h4>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-wider" data-i18n="projectDetail.projectDetails">Project Details</h4>
                         <span class="material-symbols-outlined text-slate-400 text-lg">analytics</span>
                     </div>
                     <div class="p-5 grid grid-cols-2 gap-y-6 gap-x-4">
                         <div>
-                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1">Role</p>
+                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1" data-i18n="projectDetail.role">Role</p>
                             <p class="text-white text-sm font-medium">Lead Architect</p>
                         </div>
                         <div>
-                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1">Duration</p>
+                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1" data-i18n="projectDetail.duration">Duration</p>
                             <p class="text-white text-sm font-medium">8 Months</p>
                         </div>
                         <div>
-                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1">Area</p>
+                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1" data-i18n="projectDetail.area">Area</p>
                             <p class="text-white text-sm font-medium">350 m²</p>
                         </div>
                         <div>
-                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1">Type</p>
-                            <p class="text-white text-sm font-medium">Residential</p>
+                            <p class="text-slate-400 text-xs uppercase tracking-wide mb-1" data-i18n="projectDetail.type">Type</p>
+                            <p class="text-white text-sm font-medium" data-i18n="projects.residential">Residential</p>
                         </div>
                         <div class="col-span-2 pt-4 border-t border-border-dark">
                             <p class="text-slate-400 text-xs uppercase tracking-wide mb-3">Services Provided</p>
@@ -238,11 +238,11 @@
                 
                 <!-- CTA Block -->
                 <div class="p-6 rounded-xl bg-gradient-to-br from-card-dark to-[#131f2b] border border-border-dark">
-                    <h4 class="text-white font-bold mb-2">Interested in a Similar Project?</h4>
-                    <p class="text-slate-400 text-sm mb-4">Let's discuss how we can design your dream home with the same attention to detail and quality.</p>
+                    <h4 class="text-white font-bold mb-2" data-i18n="projectDetail.interestedProject">Interested in a Similar Project?</h4>
+                    <p class="text-slate-400 text-sm mb-4" data-i18n="projectDetail.discussDream">Let's discuss how we can design your dream home with the same attention to detail and quality.</p>
                     <a href="contact.html" class="w-full flex items-center justify-center gap-2 h-12 rounded-lg bg-primary hover:bg-primary-dark text-white font-bold transition-all">
                         <span class="material-symbols-outlined">mail</span>
-                        Start Your Project
+                        <span data-i18n="services.startProject">Start Your Project</span>
                     </a>
                 </div>
                 
@@ -253,9 +253,9 @@
     <!-- More Projects -->
     <section class="mt-20 border-t border-border-dark pt-12">
         <div class="flex items-center justify-between mb-8">
-            <h3 class="text-2xl font-bold text-white">More Projects</h3>
+            <h3 class="text-2xl font-bold text-white" data-i18n="projectDetail.moreProjects">More Projects</h3>
             <a href="projects.html" class="text-primary font-medium hover:text-primary-light flex items-center gap-1 transition-colors">
-                View All
+                <span data-i18n="projects.viewAll">View All</span>
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
             </a>
         </div>
@@ -294,20 +294,38 @@
 
 <!-- Footer -->
 <footer class="mt-20 border-t border-border-dark bg-[#0c1219] py-12">
-    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div class="text-slate-400 text-sm">
-            © 2025 I-BUILT Haïti. All rights reserved.
+    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-6">
+            <div class="text-slate-400 text-sm">
+                © 2025 I-BUILT Haïti. <span data-i18n="footer.rights">All rights reserved.</span>
+            </div>
+            <div class="flex gap-6">
+                <a class="text-slate-400 hover:text-primary transition-colors" href="https://www.linkedin.com/in/jean-jackson-sim%C3%A9on-347294182" target="_blank">
+                    <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a class="text-slate-400 hover:text-primary transition-colors" href="https://instagram.com/jamaljacks0n" target="_blank">
+                    <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+            </div>
         </div>
-        <div class="flex gap-6">
-            <a class="text-slate-400 hover:text-primary transition-colors" href="https://www.linkedin.com/in/jean-jackson-sim%C3%A9on-347294182" target="_blank">
-                <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
-            <a class="text-slate-400 hover:text-primary transition-colors" href="https://instagram.com/jamaljacks0n" target="_blank">
-                <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-            </a>
+        <!-- Language Selector -->
+        <div class="flex justify-center gap-2 pt-4 border-t border-border-dark">
+            <span class="text-slate-400 text-sm mr-2" data-i18n="footer.language">Language:</span>
+            <button onclick="changeLanguage('en')" data-lang-btn="en" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-border-dark text-slate-300 hover:bg-primary/20">
+                🇺🇸 <span data-i18n="lang.english">EN</span>
+            </button>
+            <button onclick="changeLanguage('fr')" data-lang-btn="fr" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-border-dark text-slate-300 hover:bg-primary/20">
+                🇫🇷 <span data-i18n="lang.french">FR</span>
+            </button>
+            <button onclick="changeLanguage('ht')" data-lang-btn="ht" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-border-dark text-slate-300 hover:bg-primary/20">
+                🇭🇹 <span data-i18n="lang.creole">HT</span>
+            </button>
         </div>
     </div>
 </footer>
+
+<!-- Translation Script -->
+<script src="translations.js"></script>
 
 </body>
 </html>

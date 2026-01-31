@@ -59,19 +59,19 @@
         <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <a href="index.html" class="flex items-center">
-                    <img src="ibuilt_black.png" alt="I-BUILT Haïti" class="h-[60px] w-auto dark:hidden">
-                    <img src="ibuilt_white.png" alt="I-BUILT Haïti" class="h-[60px] w-auto hidden dark:block">
+                    <img src="1.png" alt="I-BUILT Haïti" class="h-[60px] w-auto dark:hidden">
+                    <img src="2.png" alt="I-BUILT Haïti" class="h-[60px] w-auto hidden dark:block">
                 </a>
                 <nav class="hidden md:flex items-center gap-8">
-                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html">Home</a>
-                    <a class="text-sm font-medium text-primary" href="services.html">Services</a>
-                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="projects.html">Projects</a>
-                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html">About</a>
-                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html">Contact</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="index.html" data-i18n="nav.home">Home</a>
+                    <a class="text-sm font-medium text-primary" href="services.html" data-i18n="nav.services">Services</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="projects.html" data-i18n="nav.projects">Projects</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="about.html" data-i18n="nav.about">About</a>
+                    <a class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary transition-colors" href="contact.html" data-i18n="nav.contact">Contact</a>
                 </nav>
                 <div class="hidden md:block">
                     <a href="contact.html" class="bg-primary hover:bg-primary-dark text-white text-sm font-bold py-2.5 px-5 rounded-lg transition-colors shadow-lg shadow-primary/20 inline-flex items-center gap-2">
-                        <span>Get a Quote</span>
+                        <span data-i18n="nav.getQuote">Get a Quote</span>
                         <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
                     </a>
                 </div>
@@ -88,20 +88,20 @@
                 <div class="flex flex-1 flex-col gap-5">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit">
                         <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-                        <span class="text-primary text-xs font-bold uppercase tracking-wider">Available for new projects</span>
+                        <span class="text-primary text-xs font-bold uppercase tracking-wider" data-i18n="hero.available">Available for new projects</span>
                     </div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em] text-slate-900 dark:text-white">
-                        Architecture & <span class="text-primary">Engineering</span> Services
+                        <span data-i18n="services.hero.title">Architecture &</span> <span class="text-primary" data-i18n="services.hero.titleHighlight">Engineering</span> <span data-i18n="services.hero.titleSuffix">Services</span>
                     </h1>
-                    <p class="text-lg text-slate-600 dark:text-text-secondary font-normal leading-relaxed max-w-[600px]">
+                    <p class="text-lg text-slate-600 dark:text-text-secondary font-normal leading-relaxed max-w-[600px]" data-i18n="services.hero.subtitle">
                         From dream to reality, we provide comprehensive design and construction services tailored to Haiti's unique environment and your specific needs.
                     </p>
                     <div class="flex gap-4 mt-4">
                         <a href="contact.html" class="h-12 px-6 rounded-lg bg-primary hover:bg-primary-dark text-white font-bold transition-colors flex items-center gap-2 shadow-lg shadow-primary/20">
-                            Start Your Project
+                            <span data-i18n="services.startProject">Start Your Project</span>
                             <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
                         </a>
-                        <a href="projects.html" class="h-12 px-6 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium flex items-center">
+                        <a href="projects.html" class="h-12 px-6 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium flex items-center" data-i18n="services.viewPortfolio">
                             View Portfolio
                         </a>
                     </div>
@@ -126,8 +126,8 @@
             <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col gap-10">
                 <div class="flex flex-col gap-2">
-                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Our Services</h2>
-                    <p class="text-slate-600 dark:text-text-secondary">Comprehensive architecture and engineering solutions for residential and commercial projects.</p>
+                    <h2 class="text-3xl font-bold text-slate-900 dark:text-white" data-i18n="services.ourServices">Our Services</h2>
+                    <p class="text-slate-600 dark:text-text-secondary" data-i18n="services.servicesDesc">Comprehensive architecture and engineering solutions for residential and commercial projects.</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -138,8 +138,8 @@
                             <span class="material-symbols-outlined text-3xl">home</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Residential Design</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.residential">Residential Design</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.residentialDesc">
                                 Custom home designs from concept to construction documents. Modern villas, family homes, and apartment buildings.
                             </p>
                         </div>
@@ -151,8 +151,8 @@
                             <span class="material-symbols-outlined text-3xl">apartment</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Commercial Architecture</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.commercial">Commercial Architecture</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.commercialDesc">
                                 Office buildings, retail spaces, restaurants, and mixed-use developments designed for functionality and aesthetics.
                             </p>
                         </div>
@@ -164,8 +164,8 @@
                             <span class="material-symbols-outlined text-3xl">engineering</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Structural Engineering</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.structural">Structural Engineering</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.structuralDesc">
                                 Seismic-resistant structural analysis and design ensuring safety and compliance with building codes.
                             </p>
                         </div>
@@ -177,8 +177,8 @@
                             <span class="material-symbols-outlined text-3xl">construction</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Project Management</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.projectManagement">Project Management</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.projectManagementDesc">
                                 End-to-end project oversight from planning to completion, ensuring timelines and budgets are met.
                             </p>
                         </div>
@@ -190,8 +190,8 @@
                             <span class="material-symbols-outlined text-3xl">draw</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Interior Design</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.interior">Interior Design</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.interiorDesc">
                                 Space planning, material selection, and interior layouts that complement architectural design.
                             </p>
                         </div>
@@ -203,8 +203,8 @@
                             <span class="material-symbols-outlined text-3xl">autorenew</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Renovation</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.renovation">Renovation</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.renovationDesc">
                                 Transform existing spaces with thoughtful renovations and structural improvements.
                             </p>
                         </div>
@@ -216,8 +216,8 @@
                             <span class="material-symbols-outlined text-3xl">landscape</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Site Planning</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.sitePlanning">Site Planning</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.sitePlanningDesc">
                                 Land analysis, zoning compliance, and optimal site utilization for your project.
                             </p>
                         </div>
@@ -229,8 +229,8 @@
                             <span class="material-symbols-outlined text-3xl">verified</span>
                         </div>
                         <div class="flex flex-col gap-2">
-                            <h3 class="text-lg font-bold text-slate-900 dark:text-white">Permit Assistance</h3>
-                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.permits">Permit Assistance</h3>
+                            <p class="text-sm text-slate-600 dark:text-text-secondary leading-relaxed" data-i18n="services.permitsDesc">
                                 Navigate local building codes and permit requirements with expert guidance.
                             </p>
                         </div>
@@ -245,32 +245,32 @@
         <section class="w-full py-16">
             <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="rounded-2xl bg-slate-100 dark:bg-card-dark p-8 md:p-12 border border-slate-200 dark:border-border-dark">
-                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-8 text-center">Our Process</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-8 text-center" data-i18n="services.ourProcess">Our Process</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
                     
                     <div class="flex flex-col items-center text-center gap-4">
                         <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">1</div>
-                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Consultation</h3>
-                        <p class="text-sm text-slate-600 dark:text-text-secondary">We discuss your vision, requirements, budget, and timeline.</p>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.process.consultation">Consultation</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary" data-i18n="services.process.consultationDesc">We discuss your vision, requirements, budget, and timeline.</p>
                     </div>
                     
                     <div class="flex flex-col items-center text-center gap-4">
                         <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">2</div>
-                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Design</h3>
-                        <p class="text-sm text-slate-600 dark:text-text-secondary">Concept development, floor plans, and 3D visualizations.</p>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.process.design">Design</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary" data-i18n="services.process.designDesc">Concept development, floor plans, and 3D visualizations.</p>
                     </div>
                     
                     <div class="flex flex-col items-center text-center gap-4">
                         <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">3</div>
-                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Documentation</h3>
-                        <p class="text-sm text-slate-600 dark:text-text-secondary">Complete construction documents and engineering calculations.</p>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.process.documentation">Documentation</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary" data-i18n="services.process.documentationDesc">Complete construction documents and engineering calculations.</p>
                     </div>
                     
                     <div class="flex flex-col items-center text-center gap-4">
                         <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl font-black">4</div>
-                        <h3 class="text-lg font-bold text-slate-900 dark:text-white">Execution</h3>
-                        <p class="text-sm text-slate-600 dark:text-text-secondary">Construction oversight and project management until completion.</p>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="services.process.execution">Execution</h3>
+                        <p class="text-sm text-slate-600 dark:text-text-secondary" data-i18n="services.process.executionDesc">Construction oversight and project management until completion.</p>
                     </div>
                     
                 </div>
@@ -283,8 +283,8 @@
             <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row gap-10 items-center">
                 <div class="flex-1">
-                    <h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-4">Professional Tools</h2>
-                    <p class="text-slate-600 dark:text-text-secondary mb-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-4" data-i18n="services.professionalTools">Professional Tools</h2>
+                    <p class="text-slate-600 dark:text-text-secondary mb-8" data-i18n="services.toolsDesc">
                         We use industry-standard software to deliver precise designs, accurate calculations, and professional documentation.
                     </p>
                     
@@ -365,16 +365,34 @@
     
     <!-- Footer -->
     <footer class="w-full border-t border-slate-200 dark:border-border-dark bg-white dark:bg-[#111a22] py-8">
-        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
-            <p>© 2025 I-BUILT Haïti. All rights reserved.</p>
-            <div class="flex gap-6">
-                <a class="hover:text-primary transition-colors" href="https://linktr.ee/jamaljacks0n" target="_blank">Linktree</a>
-                <a class="hover:text-primary transition-colors" href="contact.html">Contact</a>
+        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-400 mb-4">
+                <p>© 2025 I-BUILT Haïti. <span data-i18n="footer.rights">All rights reserved.</span></p>
+                <div class="flex gap-6">
+                    <a class="hover:text-primary transition-colors" href="https://linktr.ee/jamaljacks0n" target="_blank">Linktree</a>
+                    <a class="hover:text-primary transition-colors" href="contact.html" data-i18n="nav.contact">Contact</a>
+                </div>
+            </div>
+            <!-- Language Selector -->
+            <div class="flex justify-center gap-2 pt-4 border-t border-slate-200 dark:border-border-dark">
+                <span class="text-slate-500 dark:text-slate-400 text-sm mr-2" data-i18n="footer.language">Language:</span>
+                <button onclick="changeLanguage('en')" data-lang-btn="en" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-slate-200 dark:bg-border-dark text-slate-600 dark:text-slate-300 hover:bg-primary/20">
+                    🇺🇸 <span data-i18n="lang.english">EN</span>
+                </button>
+                <button onclick="changeLanguage('fr')" data-lang-btn="fr" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-slate-200 dark:bg-border-dark text-slate-600 dark:text-slate-300 hover:bg-primary/20">
+                    🇫🇷 <span data-i18n="lang.french">FR</span>
+                </button>
+                <button onclick="changeLanguage('ht')" data-lang-btn="ht" class="flex items-center gap-1 px-2 py-1 rounded text-xs font-medium transition-colors bg-slate-200 dark:bg-border-dark text-slate-600 dark:text-slate-300 hover:bg-primary/20">
+                    🇭🇹 <span data-i18n="lang.creole">HT</span>
+                </button>
             </div>
         </div>
     </footer>
     
 </div>
+
+<!-- Translation Script -->
+<script src="translations.js"></script>
 
 </body>
 </html>

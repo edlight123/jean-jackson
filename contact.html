@@ -119,30 +119,30 @@
                         
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <label class="flex flex-col flex-1">
-                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2">Full Name *</p>
-                                <input name="name" required class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" placeholder="Your full name" type="text" />
+                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2"><span data-i18n="contact.fullName">Full Name</span> *</p>
+                                <input name="name" required class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" data-i18n-placeholder="contact.namePlaceholder" placeholder="Your full name" type="text" />
                             </label>
                             <label class="flex flex-col flex-1">
-                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2">Email Address *</p>
-                                <input name="email" required class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" placeholder="your@email.com" type="email" />
+                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2"><span data-i18n="contact.email">Email Address</span> *</p>
+                                <input name="email" required class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" data-i18n-placeholder="contact.emailPlaceholder" placeholder="your@email.com" type="email" />
                             </label>
                         </div>
                         
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <label class="flex flex-col flex-1">
-                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2">Phone Number</p>
-                                <input name="phone" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" placeholder="+509 XXXX XXXX" type="tel" />
+                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2" data-i18n="contact.phone">Phone Number</p>
+                                <input name="phone" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" data-i18n-placeholder="contact.phonePlaceholder" placeholder="+509 XXXX XXXX" type="tel" />
                             </label>
                             <label class="flex flex-col flex-1">
-                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2">Project Type</p>
+                                <p class="text-slate-700 text-sm font-medium leading-normal pb-2" data-i18n="contact.projectType">Project Type</p>
                                 <div class="relative">
                                     <select name="project_type" class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 px-4 text-base font-normal leading-normal appearance-none transition-all">
-                                        <option value="">Select type...</option>
-                                        <option value="residential">Residential Construction</option>
-                                        <option value="commercial">Commercial Building</option>
-                                        <option value="renovation">Renovation</option>
-                                        <option value="interior">Interior Design</option>
-                                        <option value="consultation">General Consultation</option>
+                                        <option value="" data-i18n="contact.selectType">Select type...</option>
+                                        <option value="residential" data-i18n="contact.residentialConstruction">Residential Construction</option>
+                                        <option value="commercial" data-i18n="contact.commercialBuilding">Commercial Building</option>
+                                        <option value="renovation" data-i18n="contact.renovationType">Renovation</option>
+                                        <option value="interior" data-i18n="contact.interiorDesign">Interior Design</option>
+                                        <option value="consultation" data-i18n="contact.generalConsultation">General Consultation</option>
                                     </select>
                                     <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
                                         <span class="material-symbols-outlined">expand_more</span>
@@ -152,18 +152,18 @@
                         </div>
                         
                         <label class="flex flex-col flex-1">
-                            <p class="text-slate-700 text-sm font-medium leading-normal pb-2">Location</p>
-                            <input name="location" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" placeholder="e.g. Port-au-Prince, Pétion-Ville, etc." type="text" />
+                            <p class="text-slate-700 text-sm font-medium leading-normal pb-2" data-i18n="contact.location">Location</p>
+                            <input name="location" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary h-12 placeholder:text-slate-400 px-4 text-base font-normal leading-normal transition-all" data-i18n-placeholder="contact.locationPlaceholder" placeholder="e.g. Port-au-Prince, Pétion-Ville, etc." type="text" />
                         </label>
                         
                         <label class="flex flex-col flex-1">
-                            <p class="text-slate-700 text-sm font-medium leading-normal pb-2">Message *</p>
-                            <textarea name="message" required class="form-textarea flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary min-h-[160px] placeholder:text-slate-400 p-4 text-base font-normal leading-normal transition-all" placeholder="Tell me about your project - what you're looking to build, your budget range, timeline, and any specific requirements..."></textarea>
+                            <p class="text-slate-700 text-sm font-medium leading-normal pb-2"><span data-i18n="contact.message">Message</span> *</p>
+                            <textarea name="message" required class="form-textarea flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-slate-900 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 bg-slate-50 focus:border-primary min-h-[160px] placeholder:text-slate-400 p-4 text-base font-normal leading-normal transition-all" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Tell me about your project - what you're looking to build, your budget range, timeline, and any specific requirements..."></textarea>
                         </label>
                         
                         <button type="submit" class="flex w-full md:w-auto self-start cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary hover:bg-primary-dark transition-colors text-white text-base font-bold leading-normal tracking-[0.015em] shadow-lg shadow-primary/20 mt-2 gap-2">
                             <span class="material-symbols-outlined">send</span>
-                            Send Message
+                            <span data-i18n="contact.send">Send Message</span>
                         </button>
                     </form>
                 </div>
@@ -173,7 +173,7 @@
                     
                     <!-- Contact Details Card -->
                     <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-lg">
-                        <h3 class="text-slate-900 text-lg font-bold mb-4">Contact Information</h3>
+                        <h3 class="text-slate-900 text-lg font-bold mb-4" data-i18n="contact.info">Contact Information</h3>
                         <div class="flex flex-col gap-4">
                             
                             <a class="flex items-center gap-4 group" href="mailto:Simeonjeanjackson@gmail.com">
@@ -181,7 +181,7 @@
                                     <span class="material-symbols-outlined text-primary text-[20px]">email</span>
                                 </div>
                                 <div class="flex flex-col">
-                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider">Email</span>
+                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider" data-i18n="contact.emailLabel">Email</span>
                                     <span class="text-slate-900 group-hover:text-primary transition-colors text-sm">Simeonjeanjackson@gmail.com</span>
                                 </div>
                             </a>
@@ -191,7 +191,7 @@
                                     <span class="material-symbols-outlined text-primary text-[20px]">call</span>
                                 </div>
                                 <div class="flex flex-col">
-                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider">Phone</span>
+                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider" data-i18n="contact.phoneLabel">Phone</span>
                                     <span class="text-slate-900 group-hover:text-primary transition-colors text-sm">+509 4407 4964</span>
                                 </div>
                             </a>
@@ -201,8 +201,8 @@
                                     <span class="material-symbols-outlined text-green-500 text-[20px]">chat</span>
                                 </div>
                                 <div class="flex flex-col">
-                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider">WhatsApp</span>
-                                    <span class="text-slate-900 group-hover:text-green-500 transition-colors text-sm">Message on WhatsApp</span>
+                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider" data-i18n="contact.whatsappLabel">WhatsApp</span>
+                                    <span class="text-slate-900 group-hover:text-green-500 transition-colors text-sm" data-i18n="contact.messageWhatsApp">Message on WhatsApp</span>
                                 </div>
                             </a>
                             
@@ -211,8 +211,8 @@
                                     <span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
                                 </div>
                                 <div class="flex flex-col">
-                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider">Location</span>
-                                    <span class="text-slate-900 text-sm">Haiti</span>
+                                    <span class="text-xs text-slate-500 font-medium uppercase tracking-wider" data-i18n="contact.locationLabel">Location</span>
+                                    <span class="text-slate-900 text-sm" data-i18n="contact.haiti">Haiti</span>
                                 </div>
                             </div>
                             

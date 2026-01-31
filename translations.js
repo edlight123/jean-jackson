@@ -530,6 +530,26 @@ const translations = {
         fr: "Numéro de téléphone",
         ht: "Nimewo telefòn"
     },
+    "contact.namePlaceholder": {
+        en: "Your full name",
+        fr: "Votre nom complet",
+        ht: "Non konplè ou"
+    },
+    "contact.emailPlaceholder": {
+        en: "your@email.com",
+        fr: "votre@email.com",
+        ht: "ou@imèl.com"
+    },
+    "contact.phonePlaceholder": {
+        en: "+509 XXXX XXXX",
+        fr: "+509 XXXX XXXX",
+        ht: "+509 XXXX XXXX"
+    },
+    "contact.haiti": {
+        en: "Haiti",
+        fr: "Haïti",
+        ht: "Ayiti"
+    },
     "contact.projectType": {
         en: "Project Type",
         fr: "Type de projet",
